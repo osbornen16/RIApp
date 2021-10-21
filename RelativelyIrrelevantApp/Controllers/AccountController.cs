@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using RelativelyIrrelevantApp.Models;
 using RelativelyIrrelevantApp.Providers;
 using RelativelyIrrelevantApp.Results;
+using RI.Data;
 
 namespace RelativelyIrrelevantApp.Controllers
 {
