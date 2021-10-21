@@ -17,6 +17,7 @@ namespace RI.Data
         public int Id { get; set; }
         [ForeignKey(nameof(Product))]
         public int Description { get; set; }
-        
+        public virtual Product Product { get; set; }
+
     }
 }
