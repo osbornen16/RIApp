@@ -87,6 +87,14 @@
     <Compile Include="OrderCreate.cs" />
     <Compile Include="OrderDetail.cs" />
     <Compile Include="OrderEdit.cs" />
+    <Compile Include="CategoryCreate.cs" />
+    <Compile Include="CategoryDetail.cs" />
+    <Compile Include="CategoryEdit.cs" />
+    <Compile Include="CategoryListItem.cs" />
+    <Compile Include="CreatePerson.cs" />
+    <Compile Include="PersonDetails.cs" />
+    <Compile Include="PersonEdit.cs" />
+    <Compile Include="PersonListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

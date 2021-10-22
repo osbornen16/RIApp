@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RI.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -6,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RI.Data
+namespace RI.Models
 {
-    public class Category
+    public class CategoryDetail
     {
         [Key]
         public int CategoryId { get; set; }
@@ -18,6 +19,5 @@ namespace RI.Data
         [ForeignKey(nameof(Product))]
         public int Description { get; set; }
         public virtual Product Product { get; set; }
-
     }
 }
