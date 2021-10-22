@@ -14,7 +14,7 @@ namespace RI.Data
         public int Id { get; set; }
 
         [ForeignKey(nameof(Person))]
-        public int PersonId { get; set; }
+        public Guid PersonId { get; set; }
         public virtual Person Person { get; set; }
 
         [ForeignKey(nameof(Product))]
@@ -24,6 +24,8 @@ namespace RI.Data
         [Required]
         public int ItemCount { get; set; }
 
-        public DateTime DateOfOrder { get; set; }
+        [Required]
+        public DateTimeOffset OrderDate { get; set; }
+        public decimal OrderTotal { get; set; }
     }
 }
