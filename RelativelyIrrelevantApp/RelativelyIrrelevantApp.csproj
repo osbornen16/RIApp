@@ -208,6 +208,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -309,15 +310,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RI.Data\RI.Data.csproj">
-      <Project>{AF817EFC-529B-409C-A02A-2F2C71478265}</Project>
+      <Project>{af817efc-529b-409c-a02a-2f2c71478265}</Project>
       <Name>RI.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\RI.Models\RI.Models.csproj">
-      <Project>{B2489942-2C0E-42D9-B38F-BB09A06952E9}</Project>
+      <Project>{b2489942-2c0e-42d9-b38f-bb09a06952e9}</Project>
       <Name>RI.Models</Name>
     </ProjectReference>
     <ProjectReference Include="..\RI.Service\RI.Service.csproj">
-      <Project>{1FF54242-D03D-4D6B-8E91-2B578F762586}</Project>
+      <Project>{1ff54242-d03d-4d6b-8e91-2b578f762586}</Project>
       <Name>RI.Service</Name>
     </ProjectReference>
   </ItemGroup>
