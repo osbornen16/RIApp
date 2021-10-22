@@ -30,6 +30,7 @@ namespace RI.Data
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<Person> People { get; set; }
     }
 
