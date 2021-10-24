@@ -9,9 +9,7 @@ namespace RI.Models
 {
     public class CategoryCreate
     {
-        [Required]
         public int CategoryId { get; set; }
-        [Required]
         public string CategoryName { get; set; }
     }
 }

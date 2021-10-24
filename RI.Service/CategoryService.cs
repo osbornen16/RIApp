@@ -10,7 +10,7 @@ namespace RI.Service
 {
     public class CategoryService
     {
-        public bool CreateNote(CategoryCreate model)
+        public bool CreateCategory(CategoryCreate model)
         {
             var entity = new Category()
             {
@@ -41,7 +41,7 @@ namespace RI.Service
                 return query.ToArray();
             }
         }
-        public CategoryDetail GetCategoryById(int id)
+        public CategoryDetail GetProductsByCategoryId(int id)
         {
             using (var ctx = new ApplicationDbContext())
             {
@@ -52,8 +52,8 @@ namespace RI.Service
                 return
                     new CategoryDetail
                     {
-                        CategoryId = entity.CategoryId,
-                        CategoryName = entity.CategoryName
+                        CategoryName = entity.CategoryName,
+                        ProductList = entity.ProductList
                     };
             }
         }

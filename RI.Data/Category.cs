@@ -12,12 +12,8 @@ namespace RI.Data
     {
         [Key]
         public int CategoryId { get; set; }
+        [Required]
         public string CategoryName { get; set; }
-        [ForeignKey(nameof(Product))]
-        public int Id { get; set; }
-        [ForeignKey(nameof(Product))]
-        public int Description { get; set; }
-        public virtual Product Product { get; set; }
-
+        public List<Product> ProductList { get; set; }
     }
 }
