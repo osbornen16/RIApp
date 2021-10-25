@@ -84,6 +84,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="ProductCreate.cs" />
+    <Compile Include="ProductDetails.cs" />
+    <Compile Include="ProductEdit.cs" />
+    <Compile Include="ProductList.cs" />
+
     <Compile Include="OrderCreate.cs" />
     <Compile Include="OrderDetail.cs" />
     <Compile Include="OrderEdit.cs" />
@@ -95,6 +101,7 @@
     <Compile Include="PersonDetails.cs" />
     <Compile Include="PersonEdit.cs" />
     <Compile Include="PersonListItem.cs" />
+
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

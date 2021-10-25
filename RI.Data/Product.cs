@@ -12,6 +12,11 @@ namespace RI.Data
     {
         [Key]
         public int Id { get; set; }
+
+        [ForeignKey(nameof(Person))]
+        public Guid PersonId { get; set; }
+        public virtual Person Person { get; set; }
+
         public string ProductName { get; set; }
         [Required]
         public double Price { get; set; }
