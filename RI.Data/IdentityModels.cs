@@ -33,5 +33,13 @@ namespace RI.Data
 
 
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<Order> Order { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Person> People { get; set; }
+
+
     }
+
+
 }
