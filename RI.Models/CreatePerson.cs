@@ -19,6 +19,6 @@ namespace RI.Models
         public string State { get; set; }
         [Required]
         public string StreetAddress { get; set; }
-       
+        public Guid PersonId { get; set; }
     }
 }

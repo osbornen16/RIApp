@@ -11,6 +11,7 @@ using System.Web.Http;
 
 namespace RelativelyIrrelevantApp.Controllers
 {
+    [Authorize]
     public class PersonController : ApiController
     {
         private PersonService CreatePersonService()
