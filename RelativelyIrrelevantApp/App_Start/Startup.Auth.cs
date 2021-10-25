@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using RelativelyIrrelevantApp.Providers;
 using RelativelyIrrelevantApp.Models;
+using RI.Data;
 
 namespace RelativelyIrrelevantApp
 {

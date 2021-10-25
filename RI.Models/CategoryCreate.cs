@@ -1,19 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RI.Data
+namespace RI.Models
 {
-    public class Category
+    public class CategoryCreate
     {
-        [Key]
         public int CategoryId { get; set; }
-        [Required]
         public string CategoryName { get; set; }
-        public List<Product> ProductList { get; set; }
     }
 }
