@@ -16,6 +16,7 @@ namespace RI.Data
         [ForeignKey(nameof(Person))]
         public Guid PersonId { get; set; }
         public virtual Person Person { get; set; }
+
         public string ProductName { get; set; }
         [Required]
         public double Price { get; set; }
